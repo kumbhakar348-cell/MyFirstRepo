@@ -1,0 +1,641 @@
+/* @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+ 
+*{
+    margin:0;
+ font-family: "Bricolage Grotesque",sans-serif;
+ font-optical-sizing:auto;
+   font-weight: 400;
+   font-style: normal;
+   font-variation-settings: "width"100;
+} */
+/* @
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+
+* {
+    margin: 0;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+#container{
+    height: auto;
+    width: 90%;
+/* background-color: whitesmoke; */
+    /*border-style: solid;*/
+    /* background-color: blue; */
+    margin: auto;
+    
+}
+#Header{
+    height: 90px;
+    width: 97.89%;
+   padding:15px;
+    /* background-color: crimson; */
+    position: sticky;
+    z-index: 1;
+    background-color: white;
+    top:0;
+
+}
+#logo{ 
+    height: 90px;
+    width: 100px; 
+}
+#heading{ 
+    font-size: 32px;
+    margin-top: 27px;
+    margin-left: 20px;
+    /* margin: left; */
+    position: absolute;
+    color: saddlebrown;
+    /* background-color: white; */
+}
+#address{ 
+    height: 100%;
+    width: 180px;
+   /* background-color: blueviolet;*/
+    float: right;
+    margin-top: 3px;
+    color: saddlebrown;
+    z-index: 1;
+    
+
+}
+#nav{ 
+    height: 20px;
+    width: 98.12%;
+    top:120px;  
+    position: sticky;
+    background-color: saddlebrown;
+     padding: 13px;   
+     box-shadow: 0px 2px 10px 1px white;
+ /* margin-bottom: 10px;  */
+    z-index: 1;
+}
+#nav ul{ 
+    list-style: none;
+    margin-bottom: 200px;
+    position: sticky;
+    color: azure;
+}
+#nav ul li{ 
+    display: inline;
+
+    
+}
+#nav ul li a{ 
+    color: white;
+    text-decoration:none;
+margin-left:120px;
+font-size: 20px;
+
+}
+#nav ul li ul a{ 
+    margin-right: 60px;
+}
+#nav ul li a:hover{ 
+    color:#234567;
+}
+#nav ul li ul{
+    display: none;
+    margin-left: 250px;
+}
+#nav ul li:hover ul{ 
+    display: block;
+    position: absolute;
+    align-items: center;
+    background-color:saddlebrown;
+    margin-top:-2px;
+    width: 220px;
+    font-size: x-small;
+    margin-right:20px;
+    border-radius:0px 20px 20px 20px;
+}
+#nav ul li ul li {
+    margin-left:-100px;
+    line-height: 35px;
+}
+#welcome{
+    height: 40px;
+    width: 100%;
+    background-color: white;
+    /* z-index: 1; */
+    /* position: fixed; */
+    /* border-radius:0px 20px 20px 20px; */
+    overflow: hidden;
+
+    
+
+}
+#tittle{ 
+    height: 20px;
+    width: 100%px;
+    background-color:white;
+   margin-top: 5px; 
+   font-size:x-small;
+   /* z-index: 1; */
+    position: sticky; 
+   
+
+}
+#bannerArea{ 
+    height: 500px;
+    width: 100%; 
+    /* background-color: cadetblue; */
+     border-radius: 0px;
+}
+ #bannerImg{ 
+    height: 500px;
+    width: 100%;
+    border-radius: 0px;
+} 
+#section{ 
+height: 230px;
+background-color: whitesmoke;
+padding: 40px;
+/* background-color: white; */
+border-radius: 0px;
+ width: 94.1%;
+
+}
+#section p{ 
+font-size: 18px;
+text-align: justify;
+padding: 5px;
+line-height: 24px;
+}
+#box{ 
+     height: 450px;
+    background-color:saddlebrown ; 
+     padding: 30px;
+     width: 95.70%;
+     /* width: 102.10%; */
+     /* background-color:saddlebrown; 
+ */
+}
+#box1{
+    height: 370px;
+    width: 250px;
+     background-color:saddlebrown; 
+    float: left;
+   margin: 37px;
+   margin-top: 42px;
+   overflow: hidden;
+
+}
+#boxImg{
+    height: 240px;
+    width: 250px;
+    overflow: hidden;
+
+}
+ #boxImg:hover{   
+   /* height: 220px; 
+     width: 100%; */
+     background-color: saddlebrown;
+     transition: 2s; 
+     transform: scale(1.1); 
+     transform: rotate(360dg);
+ } 
+ 
+#boxcontent{
+    height: 120px;
+    width: 240px;
+    padding: 5px;
+    background-color: white;
+    
+}
+#boxcontent p{
+    padding: 5px;
+    
+}
+#boxcontent button{
+    background-color:saddlebrown;
+    height: 20px;
+    color: white;
+    width: 150px;
+    margin: 10px;
+    border-width: 0px;
+    margin-right: 10px;
+}
+#boxcontent button:hover{
+    background-color: #234567;
+    transition: 2s;
+    transform: scale(1.1);
+}
+#about{
+    height: 480px;
+    width: 98.13%;
+     /* background-color: rgb(42, 45, 45);  */
+    line-height: 30px;
+     /* background-color: darkgreen;  */
+    padding: 12px;
+
+}
+#aboutImage{
+    height: 350px;
+    width: 350px;
+     /* background-color: #234567;  */
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-top: 18px;
+   
+}
+#aboutcontent{
+    height:300px;
+    width: 680px;
+    background-color: white;
+    float: right;
+    /* padding-top: 10px; */
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+    margin-top: 30px;
+    padding: 10px;
+    margin-top: -350px;
+    padding: 40px;
+
+}
+#contact{ 
+    height: 490px;
+    margin: auto;
+    width: 100%;
+    color: white;
+    align-items: center;
+    background-color: saddlebrown; 
+    
+}
+ #contactbox{ 
+    height: 350px;
+    width: 250px;
+    padding: 10px;
+    margin-top: 100px;
+    background-color:white;
+     margin: 12px; 
+    color: black;
+    float: left;
+    font-size: large;
+    margin: left;
+    margin-left: 35px;
+
+ }  
+#contactMbox{
+    height: 360px;
+    width: 325px;
+    margin: 40px;
+    margin-top: 12px;
+     float: left;
+background-color: gray;
+    
+}
+#Footer{
+    text-align: center;
+    /* background-color: blue; */
+    font-size: 15px;
+}
+#humber{
+    height: 26px;
+    display: none;
+}
+#hum{
+    display: none;
+}
+
+/*###########################################
+##########  Media Query #####################
+#############################################*/
+
+@media screen and (max-width:400px) {
+    #container{
+    height: auto;
+    width: 90%;
+    margin: auto;
+     /* background-color: #234567; */
+     
+}
+#Header{
+    height: 60px;
+   padding:5px;
+   color: saddlebrown;
+  top: 0;
+     z-index: 1; 
+    /* background-color: white;
+    top:0;
+    position: sticky; */
+    position: sticky;
+}
+#logo{ 
+    height: 60px;
+    width: 60px; 
+    margin: right;
+}
+#heading{ 
+    font-size: 28px;
+    margin-top: 20px;
+    margin: left;
+    position: absolute;
+    margin-left: 15px;
+    /* background-color: white; */
+}
+#address{ 
+    /* height: 100%;
+    width: 180px;
+   /* background-color: blueviolet;*/
+    /* float: right;
+    margin-top: 3px;
+     */ 
+     display: none;
+}
+#nav{ 
+ 
+     height: 25px;
+    /* width: 98.12%; */
+    top: 70px;  
+    position: sticky;
+    background-color: saddlebrown;
+    box-shadow: 0px 2px 10px 1px white;
+     z-index: 1;  
+    width: 97.50%;
+    border-radius: 0px;
+    padding: 5px;
+
+}
+#humber{
+    display:block;
+    margin-right: 10px;
+      margin-top: 1px;
+      background-color: saddlebrown;
+}
+
+#nav ul{ 
+    list-style: none;
+    padding-top: 11px;
+    display: none;
+    /* position: sticky; */
+    color: azure;
+   
+    /* background-color: saddlebrown; */
+}
+#hum:checked ~ul{
+    display: block;
+    background-color: saddlebrown;
+    height: 130px;
+    width: 80px;
+}
+#nav ul li{ 
+    display: block;
+    margin-left: -65px;
+    
+
+    
+}
+#nav ul li a{ 
+    color: white;
+    text-decoration:none;
+margin-left:40px;
+font-size: 16px;
+
+}
+#nav ul li ul a{ 
+    margin-right: 60px;
+}
+#nav ul li a:hover{ 
+    color:#234567;
+}
+#nav ul li ul{
+    display: none;
+    margin-left: 300px;
+}
+#nav ul li:hover ul{ 
+    display: block;
+    position: absolute;
+    align-items: center;
+    background-color:saddlebrown;
+    margin-top:-2px;
+    width: 170px;
+    
+    /* line-height: 16px; */
+    margin-left:140px;
+    border-radius:0px 20px 20px 20px;
+}
+#nav ul li ul li {
+    margin-left:-50px;
+    line-height: 16px;
+    font-size: 14px;
+}
+#welcome{
+    height: 30px;
+    width: 100%;
+    position: static;
+    z-index: 1;
+    /* background-color:#234567; */
+      /* z-index: 1;  
+     position: fixed; */
+    /* border-radius:0px 20px 20px 20px;
+    /* overflow: hidden;  */
+   /*  box-shadow: 0px 2px 10px 1px white; */
+
+    
+
+}
+ #tittle{ 
+    height: 20px;
+    width: 100%px;
+    background-color:white;
+   margin-top: 5px; 
+   font-size:x-small;
+   /* z-index: 1;
+    position: sticky;  */
+    
+
+
+}
+#bannerArea{ 
+    height: 250px;
+    width: 100%; 
+     /* background-color: cadetblue;  */
+     border-radius: 0px;
+}
+ #bannerImg{ 
+    height: 200px;
+    width: 100%;
+    border-radius: 0px;
+} 
+#section h1{
+    font-size: 24px;
+}
+#section{ 
+height: 840px;
+width: 77.90%;
+/* background-color:#234567; */
+padding: 40px;
+/* background-color: white; */
+border-radius: 0px;
+ 
+
+}
+#section p{ 
+font-size: 18px;
+text-align: justify;
+ /* padding: 5px;  */
+line-height: 24px;
+}
+#box{ 
+     height: 1600px;
+    background-color:saddlebrown ; 
+     padding: 30px;
+     width: 83%;
+     /* width: 102.10%; */
+     /* background-color:saddlebrown; 
+ */
+}
+#box1{
+    height: 370px;
+    width: 250px;
+     background-color:saddlebrown; 
+    float: left;
+   margin: 10px;
+   margin-top: 20px;
+   margin-left: 29px;
+   overflow: hidden;
+
+}
+#boxImg{
+    height: 240px;
+    width: 250px;
+    overflow: hidden;
+
+}
+ #boxImg:hover{   
+   /* height: 220px; 
+     width: 100%; */
+     background-color: saddlebrown;
+     transition: 2s; 
+     transform: scale(1.1); 
+     transform: rotate(360dg);
+ } 
+ 
+#boxcontent{
+    height: 130px;
+    width: 240px;
+    padding: 5px;
+    background-color: white;
+    
+}
+#boxcontent p{
+    padding: 5px;
+    
+}
+#boxcontent button{
+    background-color:saddlebrown;
+    height: 20px;
+    color: white;
+    width: 150px;
+    margin: 10px;
+    border-width: 0px;
+    margin-right: 10px;
+}
+#boxcontent button:hover{
+    background-color: #234567;
+    transition: 2s;
+    transform: scale(1.1);
+}
+#about{
+    height: 900px;
+    /* width: 98.13%; */
+     /* background-color: rgb(42, 45, 45);  */
+    line-height: 30px;
+    /* background-color: darkgreen; */
+    padding: 25px;
+    background-color:whitesmoke;
+    width: 86%;
+
+}
+#aboutImage{
+    height: 200px;
+    width: 200px;
+    /* background-color: #234567; */
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 25px;
+   float: left;
+}
+#aboutcontent{
+    height:290px;
+    width: 240px;
+    /* background-color: white; */
+    float: left;
+    margin-top: 30PX;
+    margin-left: 15px;
+    padding: 20px;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 26px;
+    /* padding-top: 10px;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: justify;
+    margin-top: 50px;
+    padding: 10px; */
+    background-color: whitesmoke;
+
+}
+#contact{ 
+    height: 1700px;
+    margin: auto;
+    width: 100%;
+    color: white;
+    align-items: center;
+    background-color: saddlebrown; 
+    
+}
+ #contactbox{ 
+    height: 370px;
+    width: 250px;
+    padding: 10px;
+    margin-top: 100px;
+    background-color:white;
+     margin: 12px; 
+    color: black;
+    float: left;
+    font-size: large;
+    margin: left;
+    margin-left: 47px;
+
+ }  
+#contactMbox{
+    height: 370px;
+    width: 280px;
+    margin: 40px;
+    margin-top: 12px;
+     float: left;
+background-color: gray;
+    
+}
+iframe{
+    height: 370px;
+    width: 280px;
+
+}
+#contactbox ul li a{
+    text-decoration: none;
+    line-height:35px;
+    font-size: 18px;
+    color: black;
+
+}
+#contact h1{
+    color: white;
+}
+#Footer{
+    text-align: center;
+    /* background-color: blue; */
+    font-size: 15px;
+}
+
+
+}
