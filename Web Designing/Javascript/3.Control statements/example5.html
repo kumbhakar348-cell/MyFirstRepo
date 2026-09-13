@@ -1,0 +1,37 @@
+
+<!--- nested if else statements-->
+<!--print grade-->
+<script>
+    var m1 = 45, m2 = 50, m3 = 90, m4 = 5, m5 = 62;
+    var total = m1+m2+m3+m4+m5;
+    var per = total /5;
+
+    document.write("Total marks :"+total);
+    document.write("<br>Percentage :"+per+"<br>");
+
+    if (m1 < 33 || m2 < 33 || m3 < 33 || m4 < 33 || m5 < 33)
+    document.write("Failed user");
+
+    else {
+        if (per>=75  && per<=100)
+        document.write("Grade A");
+
+        else {
+            if(per>=60 && per<=75)
+            document.write("Grade B");
+
+            else {
+                if(per>=50 && per<=60)
+                document.write("Grade C");
+
+                else {
+                    if(per>=33 && per<=50)
+                    document.write("Grade D");
+
+                    else
+                    document.write("Failed user");
+                }
+            }
+        }
+    }
+</script>

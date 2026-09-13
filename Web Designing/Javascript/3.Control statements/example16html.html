@@ -1,0 +1,32 @@
+<!--  Switch control statement-  it is mainly use to work with -->
+
+<script>
+    // Switch control statement
+
+    var choice = prompt("Select Whose Area You Want to find out :\nR/r for area of rectangle\nC/c for area of circle\nE/e for exit");
+
+    switch(choice) {
+
+        case 'C':
+        case 'c':
+            var r = parseInt(prompt("Enter radius :"));
+            document.write("<br>Area of Circle : " + (Math.PI * r * r));
+            break;
+
+        case 'R':
+        case 'r':
+            var l = parseInt(prompt("Enter length :"));
+            var b = parseInt(prompt("Enter breadth :"));
+            document.write("<br>Area of Rectangle : " + (l * b));
+            break;
+
+        case 'E':
+        case 'e':
+            document.write("<br>Exit");
+            break;
+
+        default:
+            document.write("<br>Invalid selection");
+            break;
+    }
+</script>

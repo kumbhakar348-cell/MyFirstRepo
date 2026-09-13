@@ -1,0 +1,24 @@
+<!---------Bitwise operator-->
+<script>
+    var a = 9;
+    var b = 10;
+
+    document.writeln(a+" & "+b+" = "+(a&b)+"<br>");
+    document.writeln(a+" | "+b+" = "+(a|b)+"<br>");
+    document.writeln(a+" ^ "+b+" = "+(a^b)+"<br>");
+    document.writeln(a+" << "+b+" = "+(a<<b)+"<br>");
+    document.writeln(a+"  >> "+b+" = "+(a>>b)+"<br>");
+    document.writeln("~ "+a+" = "+(~a)); 
+  
+</script>
+
+<!---
+.....128   64   32  16  8  4  2  1 
+-------------------------
+                        1  0  0  1
+9 =1001
+10 = 1010
+------------
+& 1000 = 8
+
+-->

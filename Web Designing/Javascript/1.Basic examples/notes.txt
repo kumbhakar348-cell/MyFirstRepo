@@ -1,0 +1,45 @@
+Token: Smallest unit of information.
+------------------------------------------
+Token includes :
+1.Constant 
+
+2.Variable
+3.Keyword
+4.Identifier
+5.Seperator
+6.Operator
+
+
+Constant : Constant is the entity whose value connot be changed.
+Here in Javascript we define constant by const keyword.
+
+Variable: Variable is the name given to a memory location,whose value may change the execution of program.
+we can define the execution of program.
+
+keywords: keywords are reserved word,whose  meaning is already defined .We cannot use keyword as a variable name.
+
+Identifier : User defined names
+constant : uppercase
+variable : lowercase
+function:CamelCase--------------->addProduct(),addProductCategory()etc.
+
+Seperator :  ,{}()[]
+Operator :operator are the symbols,which are used to perform some operations on one or more than one operand(variable & constant).
+5+6
+x+5
+x+y   ...like a operator
+-----------------------------------------------------------------------------------------------------------------------
+Types of Operators:
+
+1.Assignment Operator(=)
+
+2.Arithmetic Operators(+,-,*,/,%)
+
+3.ShortHand Operator|Compound Operator |Arithmetic Operator(+= -= *= /= %=)
+                       a=a+5 ------->a+=5
+                       
+4.Increment |Derement Operator   
+|--Post Increment ;use/print------->then increament
+|--Post Decrement :increment----->use/print
+
+|--Post 

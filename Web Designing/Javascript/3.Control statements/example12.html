@@ -1,0 +1,17 @@
+<!-- Compound  interest-->
+ 
+ <script>
+    /*ci = am -pi;
+    */
+    var p = prompt("Enter principle");
+    var r = prompt("Enter rate");
+    var t = prompt("Enter time");
+
+    var amt = p*Math.pow(1+r/100,t);
+    document.write("<br>Amount : &#8377;"+amt);
+
+    var ci = amt - p;
+    document.write("<br>Compound Interest :&#8377;" ,+ci);
+
+
+ </script>

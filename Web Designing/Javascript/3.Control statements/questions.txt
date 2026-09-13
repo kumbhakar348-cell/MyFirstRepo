@@ -1,0 +1,7 @@
+1.convert temp from f to c 
+2. find out mean of 5 numbers
+3.swap two numbers using third variable
+4.swap two numbers without using third variable
+5. area of circle
+6.perimeter of rectangle
+7.volume of cylinnder

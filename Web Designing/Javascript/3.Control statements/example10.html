@@ -1,0 +1,23 @@
+
+<!--  reverse three digit number  -->
+
+
+<script>
+  
+   var num = prompt("Enter number to reverse");
+   document.write("Original number :"+num);
+
+   var  last = num%10;
+   document.write("<br>Last number :"+last);
+
+   var middle =parseInt (num/10)%10;
+   document.write("<br>Middle number: "+middle);
+
+   var first = parseInt(num/100);
+   document.write("<br>first number :"+first);
+
+   var reverse = last*100 +middle*10 + first*1;
+   document.write("<br>Reverse number :"+reverse);
+
+   
+</script>

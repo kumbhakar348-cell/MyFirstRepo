@@ -1,0 +1,21 @@
+<!--  Switch control statement-  it is mainly use to work with -->
+
+<script>
+    //switch (constant | variable | expressin  aa skte h condition  ni aaygi)
+
+    var num1 = parseInt(prompt("Enter first numbers"));
+    var num2 = parseInt(prompt("Enter second  numbers"));
+
+    var choice = parseInt(prompt("Enter choice\n1 for add\n2 for sub\n3 for exit"));
+
+    switch(choice){
+        case 1 :document.write("<br>Addition t :"+(num1+num2));
+                break;
+        case 2 :document.write("<br>Substraction :"+(num1-num2));
+                break;
+        case 3 :document.write("<br>Thanks for visiting");
+       
+        default  :document.write("<br>Invalid selection ");
+                break;
+    }
+    </script> 

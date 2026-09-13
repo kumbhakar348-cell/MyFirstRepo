@@ -1,0 +1,3 @@
+document.write("This is statement 1  <br>");
+    document.write("<span style='color:#234567'>This is statement 2</span> <br>");
+    document.write("This is statement 3");
